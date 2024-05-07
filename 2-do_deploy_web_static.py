@@ -49,4 +49,5 @@ def do_deploy(archive_path):
     return True
 
 # note you run this file like this:
-# fab -f 2-do_deploy_web_static.py do_deploy:archive_path=versions/web_static_20240507010534.tgz -i ~/.ssh/school -u ubuntu
+# fab -f 2-do_deploy_web_static.py do_deploy:archive_path=versions/web_static_
+# 20240507010534.tgz -i ~/.ssh/school -u ubuntu
