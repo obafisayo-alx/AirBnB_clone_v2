@@ -5,7 +5,7 @@ from fabric.api import env
 from fabric.api import put
 from fabric.api import run
 
-env.hosts = ["34.224.4.195", "104.196.168.90", "35.196.46.172"]
+env.hosts = ["35.153.98.10", "35.153.79.136"]
 
 
 def do_deploy(archive_path):
@@ -47,3 +47,6 @@ def do_deploy(archive_path):
            format(name)).failed is True:
         return False
     return True
+
+# note you run this file like this:
+# fab -f 2-do_deploy_web_static.py do_deploy:archive_path=versions/web_static_20240507010534.tgz -i ~/.ssh/school -u ubuntu
