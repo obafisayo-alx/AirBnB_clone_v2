@@ -18,6 +18,9 @@ def do_clean(number=0):
     """
     number = 1 if int(number) == 0 else int(number)
 
+    if not os.path.isdir("versions"):
+        print("Directory 'versions' not found")
+        return
     archives = sorted(os.listdir("versions"))
     [archives.pop() for i in range(number)]
     with lcd("versions"):

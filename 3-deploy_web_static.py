@@ -74,3 +74,5 @@ def deploy():
     if file is None:
         return False
     return do_deploy(file)
+
+# fab -f 3-deploy_web_static.py deploy -i ~/.ssh/school -u ubuntu
