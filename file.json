@@ -1,84 +1,40 @@
 {
-  "User.cae08c99-311e-4f88-820b-a16f246233d2": {
-    "id": "cae08c99-311e-4f88-820b-a16f246233d2",
-    "created_at": "2024-05-21T21:33:19.079336",
-    "updated_at": "2024-05-21T22:00:51.632650",
-    "firstname": "Obafisayo",
-    "lastname": "Abimbola",
-    "__class__": "User"
-  },
-  "Amenity.1c7349fa-8296-4ba0-a78c-618433610571": {
-    "id": "1c7349fa-8296-4ba0-a78c-618433610571",
-    "created_at": "2024-05-21T21:39:22.054201",
-    "updated_at": "2024-05-21T21:40:38.564241",
-    "amenity": "WiFi",
-    "__class__": "Amenity"
-  },
-  "State.720324e2-76d0-43d6-ad31-5164a5d094b5": {
+  "State.f4be565d-d009-4dc1-872d-365d569c1091": {
     "name": "California",
-    "id": "720324e2-76d0-43d6-ad31-5164a5d094b5",
-    "created_at": "2024-05-21T21:51:43.300878",
-    "updated_at": "2024-05-21T21:51:43.302111",
+    "id": "f4be565d-d009-4dc1-872d-365d569c1091",
+    "created_at": "2024-05-22T05:18:31.688311",
+    "updated_at": "2024-05-22T05:18:31.688873",
     "__class__": "State"
   },
-  "State.3adc20a0-d947-46bc-9ed0-c9c46d1cc2a6": {
+  "State.08cb764a-0446-48bc-972f-40bd40435b0e": {
     "name": "Arizona",
-    "id": "3adc20a0-d947-46bc-9ed0-c9c46d1cc2a6",
-    "created_at": "2024-05-21T21:51:48.431458",
-    "updated_at": "2024-05-21T21:51:48.431535",
+    "id": "08cb764a-0446-48bc-972f-40bd40435b0e",
+    "created_at": "2024-05-22T05:18:31.709464",
+    "updated_at": "2024-05-22T05:18:31.709661",
     "__class__": "State"
   },
-  "Place.44af21db-dba7-41c1-8a74-fc5e8e503a23": {
-    "city_id": "0001",
-    "user_id": "0001",
-    "name": "My little house",
-    "number_rooms": 4,
-    "number_bathrooms": 2,
-    "max_guest": 10,
-    "price_by_night": 300,
-    "latitude": 37.773972,
-    "longitude": -122.431297,
-    "id": "44af21db-dba7-41c1-8a74-fc5e8e503a23",
-    "created_at": "2024-05-21T21:56:40.429243",
-    "updated_at": "2024-05-21T21:56:40.429641",
-    "__class__": "Place"
-  },
-  "State.49682c5f-cbe4-4823-9a11-9eafb2b68ad9": {
-    "name": "California",
-    "id": "49682c5f-cbe4-4823-9a11-9eafb2b68ad9",
-    "created_at": "2024-05-22T03:18:10.567333",
-    "updated_at": "2024-05-22T03:18:10.567433",
-    "__class__": "State"
-  },
-  "State.330ad20c-03cb-4853-b8a6-bdf3cd1295fd": {
-    "name": "Arizona",
-    "id": "330ad20c-03cb-4853-b8a6-bdf3cd1295fd",
-    "created_at": "2024-05-22T03:18:10.571071",
-    "updated_at": "2024-05-22T03:18:10.571149",
-    "__class__": "State"
-  },
-  "City.ebc9a38c-b50c-409b-850e-df9c94cf3ffd": {
-    "state_id": "49682c5f-cbe4-4823-9a11-9eafb2b68ad9",
+  "City.14849ac5-d16f-4d90-b671-6846917bb79c": {
+    "state_id": "f4be565d-d009-4dc1-872d-365d569c1091",
     "name": "Napa",
-    "id": "ebc9a38c-b50c-409b-850e-df9c94cf3ffd",
-    "created_at": "2024-05-22T03:18:10.572204",
-    "updated_at": "2024-05-22T03:18:10.572304",
+    "id": "14849ac5-d16f-4d90-b671-6846917bb79c",
+    "created_at": "2024-05-22T05:18:31.781072",
+    "updated_at": "2024-05-22T05:18:31.781285",
     "__class__": "City"
   },
-  "City.fa51244b-1921-4c75-b64c-633674bab791": {
-    "state_id": "49682c5f-cbe4-4823-9a11-9eafb2b68ad9",
+  "City.3b081e63-e6fb-45a5-b214-e4d18b8dd22d": {
+    "state_id": "f4be565d-d009-4dc1-872d-365d569c1091",
     "name": "Sonoma",
-    "id": "fa51244b-1921-4c75-b64c-633674bab791",
-    "created_at": "2024-05-22T03:18:10.572973",
-    "updated_at": "2024-05-22T03:18:10.573078",
+    "id": "3b081e63-e6fb-45a5-b214-e4d18b8dd22d",
+    "created_at": "2024-05-22T05:18:31.830163",
+    "updated_at": "2024-05-22T05:18:31.830721",
     "__class__": "City"
   },
-  "City.90bc2a61-31a9-426f-a431-a9b97c34c850": {
-    "state_id": "330ad20c-03cb-4853-b8a6-bdf3cd1295fd",
+  "City.eb3d2146-35fc-4197-a001-f00f66639163": {
+    "state_id": "08cb764a-0446-48bc-972f-40bd40435b0e",
     "name": "Page",
-    "id": "90bc2a61-31a9-426f-a431-a9b97c34c850",
-    "created_at": "2024-05-22T03:18:10.573997",
-    "updated_at": "2024-05-22T03:18:10.574104",
+    "id": "eb3d2146-35fc-4197-a001-f00f66639163",
+    "created_at": "2024-05-22T05:18:31.852833",
+    "updated_at": "2024-05-22T05:18:31.853349",
     "__class__": "City"
   }
 }
