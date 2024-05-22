@@ -50,6 +50,11 @@ section.filters button:hover {
     font-size: 14px;
     padding-left: 30px;
 }
+.truncate{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 .popover{
     visibility: hidden;
     position: relative;
